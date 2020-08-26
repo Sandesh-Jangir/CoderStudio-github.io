@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main h1:hover{
+    cursor: pointer;
+    font-size: 60px;
+    transition: 0.2s ease;
+}
+main{
+    color: white;
+    padding: 70px;
+    align-items: center;
+    justify-content: center
+}
+.navbar_default{
+    background-image: url(download.jpg);
+    background-size: cover;
+    top: 0;
+    position: sticky;
+    cursor: pointer;
+}
+.navlist{
+    transition: 0.6s ease;
+    color: white;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+
+}
+.navlist li a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+main h1{
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+main h3{
+    display: flex;
+}
+.main h1{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+section{
+    justify-content: center;
+    align-items: center;
+    background-image: url(download.jpg);
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    height: 100vh;
+    background-size: cover;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jumbotron{
+    margin: 15px;
+}
+.row img{
+    height: 50vh;
+    border-radius: 11px;
+    margin: 10px;
+}
+.Images h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlist li a:hover{
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+.active{
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+}
